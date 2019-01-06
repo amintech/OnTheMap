@@ -7,8 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E301AE8321C62B1E00621DAD /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E301AE8221C62B1E00621DAD /* TableViewController.swift */; };
+		E301AE8521C66F8C00621DAD /* StudentLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E301AE8421C66F8C00621DAD /* StudentLocation.swift */; };
+		E301AE8721C6711E00621DAD /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E301AE8621C6711E00621DAD /* MapViewController.swift */; };
+		E301AE8921C6C63A00621DAD /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = E301AE8821C6C63900621DAD /* API.swift */; };
+		E301AE8B21C9318A00621DAD /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E301AE8A21C9318A00621DAD /* TableViewCell.swift */; };
+		E3242C0021CA18A200EBD9F0 /* TapBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3242BFF21CA18A200EBD9F0 /* TapBarViewController.swift */; };
+		E3242C0221CA1B6300EBD9F0 /* AddPinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3242C0121CA1B6300EBD9F0 /* AddPinViewController.swift */; };
+		E3F4AC3A21D377C4000553A7 /* SaveLocatinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F4AC3921D377C4000553A7 /* SaveLocatinViewController.swift */; };
+		E3F4AC3C21DE44DC000553A7 /* StudentInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F4AC3B21DE44DC000553A7 /* StudentInformation.swift */; };
+		E3F4AC3E21DE4B22000553A7 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F4AC3D21DE4B22000553A7 /* ActivityIndicator.swift */; };
 		E3F9479E21C3ECEE00568A33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F9479D21C3ECEE00568A33 /* AppDelegate.swift */; };
-		E3F947A021C3ECEE00568A33 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F9479F21C3ECEE00568A33 /* ViewController.swift */; };
+		E3F947A021C3ECEE00568A33 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F9479F21C3ECEE00568A33 /* LoginViewController.swift */; };
 		E3F947A321C3ECEE00568A33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3F947A121C3ECEE00568A33 /* Main.storyboard */; };
 		E3F947A521C3ECF400568A33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3F947A421C3ECF400568A33 /* Assets.xcassets */; };
 		E3F947A821C3ECF400568A33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3F947A621C3ECF400568A33 /* LaunchScreen.storyboard */; };
@@ -26,9 +36,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E301AE8221C62B1E00621DAD /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		E301AE8421C66F8C00621DAD /* StudentLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentLocation.swift; sourceTree = "<group>"; };
+		E301AE8621C6711E00621DAD /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		E301AE8821C6C63900621DAD /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		E301AE8A21C9318A00621DAD /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		E3242BFF21CA18A200EBD9F0 /* TapBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapBarViewController.swift; sourceTree = "<group>"; };
+		E3242C0121CA1B6300EBD9F0 /* AddPinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPinViewController.swift; sourceTree = "<group>"; };
+		E3F4AC3921D377C4000553A7 /* SaveLocatinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SaveLocatinViewController.swift; path = OnTheMap/Controller/SaveLocatinViewController.swift; sourceTree = SOURCE_ROOT; };
+		E3F4AC3B21DE44DC000553A7 /* StudentInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentInformation.swift; sourceTree = "<group>"; };
+		E3F4AC3D21DE4B22000553A7 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
 		E3F9479A21C3ECEE00568A33 /* OnTheMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnTheMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3F9479D21C3ECEE00568A33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E3F9479F21C3ECEE00568A33 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E3F9479F21C3ECEE00568A33 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		E3F947A221C3ECEE00568A33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E3F947A421C3ECF400568A33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3F947A721C3ECF400568A33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,6 +76,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E3F395A521CF851F00B12458 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E3F4AC3B21DE44DC000553A7 /* StudentInformation.swift */,
+				E301AE8421C66F8C00621DAD /* StudentLocation.swift */,
+				E301AE8821C6C63900621DAD /* API.swift */,
+				E3F4AC3D21DE4B22000553A7 /* ActivityIndicator.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E3F395A621CF852E00B12458 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E3F9479F21C3ECEE00568A33 /* LoginViewController.swift */,
+				E3242BFF21CA18A200EBD9F0 /* TapBarViewController.swift */,
+				E301AE8621C6711E00621DAD /* MapViewController.swift */,
+				E301AE8221C62B1E00621DAD /* TableViewController.swift */,
+				E3242C0121CA1B6300EBD9F0 /* AddPinViewController.swift */,
+				E3F4AC3921D377C4000553A7 /* SaveLocatinViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E3F395A721CF855400B12458 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E3F947A121C3ECEE00568A33 /* Main.storyboard */,
+				E3F947A621C3ECF400568A33 /* LaunchScreen.storyboard */,
+				E301AE8A21C9318A00621DAD /* TableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		E3F9479121C3ECED00568A33 = {
 			isa = PBXGroup;
 			children = (
@@ -78,11 +132,11 @@
 			isa = PBXGroup;
 			children = (
 				E3F9479D21C3ECEE00568A33 /* AppDelegate.swift */,
-				E3F9479F21C3ECEE00568A33 /* ViewController.swift */,
-				E3F947A121C3ECEE00568A33 /* Main.storyboard */,
 				E3F947A421C3ECF400568A33 /* Assets.xcassets */,
-				E3F947A621C3ECF400568A33 /* LaunchScreen.storyboard */,
 				E3F947A921C3ECF500568A33 /* Info.plist */,
+				E3F395A521CF851F00B12458 /* Model */,
+				E3F395A721CF855400B12458 /* View */,
+				E3F395A621CF852E00B12458 /* Controller */,
 			);
 			path = OnTheMap;
 			sourceTree = "<group>";
@@ -197,7 +251,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3F947A021C3ECEE00568A33 /* ViewController.swift in Sources */,
+				E3F4AC3C21DE44DC000553A7 /* StudentInformation.swift in Sources */,
+				E301AE8521C66F8C00621DAD /* StudentLocation.swift in Sources */,
+				E3242C0221CA1B6300EBD9F0 /* AddPinViewController.swift in Sources */,
+				E3F4AC3A21D377C4000553A7 /* SaveLocatinViewController.swift in Sources */,
+				E3F4AC3E21DE4B22000553A7 /* ActivityIndicator.swift in Sources */,
+				E3F947A021C3ECEE00568A33 /* LoginViewController.swift in Sources */,
+				E301AE8321C62B1E00621DAD /* TableViewController.swift in Sources */,
+				E301AE8721C6711E00621DAD /* MapViewController.swift in Sources */,
+				E301AE8921C6C63A00621DAD /* API.swift in Sources */,
+				E301AE8B21C9318A00621DAD /* TableViewCell.swift in Sources */,
+				E3242C0021CA18A200EBD9F0 /* TapBarViewController.swift in Sources */,
 				E3F9479E21C3ECEE00568A33 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
